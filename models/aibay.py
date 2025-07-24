@@ -2,32 +2,33 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
-from message import Message
+from models.message import Message
 import dotenv
-from utils import content
+
 
 load_dotenv()
 
 client = genai.Client()
 class AIBay:
 
-    def __init__(self):
+    def __init__(self, content):
         self._model = "gemini-2.5-flash"
         self._client = genai.Client()
+        self._content = content
 
 
     def make_message(self, msg: Message):
-        response = client.models.generate_content(
+        msg.response = client.models.generate_content(
             model=self._model,
             config=types.GenerateContentConfig(
-                system_instruction = content,
+                system_instruction = self._content,
             ),
             contents = msg.content
-        )
-        return response
+        ).text
+
 
 if __name__ == "__main__":
     a = AIBay()
     m = Message("fale seu objetivo aqui ")
-    texto = a.make_message(m)
-    print(texto.text)
+    a.make_message(m)
+    print(m.response)

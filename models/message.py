@@ -5,7 +5,7 @@ class Message:
     def __init__(self, content):
         self._created_at = datetime.now()
         self._content = content
-        self._response = None
+        self._response = ""
         self._response_date = None
 
     @property
@@ -14,9 +14,9 @@ class Message:
 
     @property
     def response(self):
-        return self.response
+        return self._response
 
     @response.setter
-    def response(self, response):
+    def response(self, new_response):
         self._response_date = datetime.now()
-        self._response = response
+        self._response = new_response
