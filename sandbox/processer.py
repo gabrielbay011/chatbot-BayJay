@@ -6,34 +6,35 @@ class Installer:
 
     def __init__(self):
         self._repo = None
-        self._local = "Repositorio temporário"
+        self._local = "repositorio_temporario"
         self.__ssh = None #todo: SSH para auntenticação
 
     def make_clone(self, repo: str):
         """This method return a new local repository"""
         self._repo = repo
-        if self._check_url(self._repo):
-            try:
+        #if self._check_url(self._repo):
+        try:
                 result = subprocess.run(
                     ["git", "clone", self._repo, self._local],
                     capture_output=True,
                     text=True,
                     check=True
                 )
+                print("Clonagem concluida")
                 return result
-            except subprocess.CalledProcessError as e:
+        except subprocess.CalledProcessError as e:
                 print(f"Erro ao clonar o repositório: {e}")
                 print("Stdout:", e.stdout)
                 print("Stderr:", e.stderr)
                 print("Abortando...")
                 return
-            except FileNotFoundError:
+        except FileNotFoundError:
                 print("Erro: 'git' não encontrado. Certifique-se de que o Git está instalado e no PATH.")
                 print("Abortando...")
                 return
 
-        else:
-            return "INVALID"
+        #else:
+            #return "INVALID"
 
     def delete_repository(self):
         try:

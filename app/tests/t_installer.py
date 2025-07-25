@@ -1,5 +1,4 @@
-from app.core.processer import Installer
-import pytest
+from sandbox.processer import Installer
 
 installer = Installer()
 

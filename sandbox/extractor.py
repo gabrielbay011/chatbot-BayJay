@@ -1,5 +1,4 @@
 import os
-from app.core.processer import Processer
 
 class Extractor:
 
