@@ -1,6 +1,6 @@
 import requests
 
-API_URL = "127.0.0.1:8000/update"
+API_URL = "127.0.0.1:8000/update/"
 
 payload = {
     "message": "Código atualizado!"
