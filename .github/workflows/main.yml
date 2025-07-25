@@ -22,4 +22,4 @@ jobs:
         run: pip install requests
 
       - name: Executar script Python
-        run: python send_push.py
+        run: python .github/workflows/send_push.py
