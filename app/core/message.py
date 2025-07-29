@@ -7,6 +7,7 @@ class Message:
         self._content = content
         self._response = ""
         self._response_date = None
+        self._ai = None
 
     @property
     def content(self):
