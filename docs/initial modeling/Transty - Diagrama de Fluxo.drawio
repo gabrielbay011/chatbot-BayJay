@@ -1,0 +1,136 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
+  <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
+    <mxGraphModel dx="778" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oiBsoawiHm-mnfTHU0bu-2" target="oiBsoawiHm-mnfTHU0bu-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-2" value="Início" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oiBsoawiHm-mnfTHU0bu-5" target="oiBsoawiHm-mnfTHU0bu-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-8" value="Sim&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oiBsoawiHm-mnfTHU0bu-6">
+          <mxGeometry x="-0.1333" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oiBsoawiHm-mnfTHU0bu-5" target="oiBsoawiHm-mnfTHU0bu-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-11" value="Não" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oiBsoawiHm-mnfTHU0bu-9">
+          <mxGeometry x="-0.0571" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-5" value="Já têm conta ?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="110" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="oiBsoawiHm-mnfTHU0bu-7" target="oiBsoawiHm-mnfTHU0bu-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-7" value="Tela Inicial&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-10" value="Mensagem de Soliticação" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oiBsoawiHm-mnfTHU0bu-10" target="oiBsoawiHm-mnfTHU0bu-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="90" />
+              <mxPoint x="310" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oiBsoawiHm-mnfTHU0bu-15" target="oiBsoawiHm-mnfTHU0bu-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-15" value="Usuário insere mensagem" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="570" y="270" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-16" value="Banco" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="310" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-17" value="API recebe dados" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="760" y="265" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oiBsoawiHm-mnfTHU0bu-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-26" value="Sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oiBsoawiHm-mnfTHU0bu-24">
+          <mxGeometry x="-0.5143" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.578;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oiBsoawiHm-mnfTHU0bu-22" target="oiBsoawiHm-mnfTHU0bu-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-31" value="Não" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oiBsoawiHm-mnfTHU0bu-29">
+          <mxGeometry x="-0.2151" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-22" value="Já tem mensagens ?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="950" y="245" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oiBsoawiHm-mnfTHU0bu-17" target="oiBsoawiHm-mnfTHU0bu-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.033;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oiBsoawiHm-mnfTHU0bu-25" target="oiBsoawiHm-mnfTHU0bu-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-25" value="Atualiza IA com o Contexto da Mensagem" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oiBsoawiHm-mnfTHU0bu-30" target="oiBsoawiHm-mnfTHU0bu-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-35" value="Salva Mensagem" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oiBsoawiHm-mnfTHU0bu-32">
+          <mxGeometry x="-0.441" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-30" value="Contexto Genérico" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="930" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.722;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oiBsoawiHm-mnfTHU0bu-25" target="oiBsoawiHm-mnfTHU0bu-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-34" value="Salva mensagem&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oiBsoawiHm-mnfTHU0bu-33">
+          <mxGeometry x="0.1316" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oiBsoawiHm-mnfTHU0bu-37" target="oiBsoawiHm-mnfTHU0bu-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1570" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-37" value="IA reponde a mensagem&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oiBsoawiHm-mnfTHU0bu-39" value="Fim" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
