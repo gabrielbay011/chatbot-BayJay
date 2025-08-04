@@ -5,28 +5,15 @@ import json
 
 router = APIRouter()
 
-#@router.post("/update")
-def new_update(repo_url):
-    try:
-
-        result = subprocess.run(
-            ["docker", "run", "--rm", "sandbox-image", repo_url],
-            capture_output=True,
-            text=True,
-            timeout=60
-        )
-        print("passei aqui")
-        if result.returncode != 0:
-
-            return {"erro": "Falha na sandbox", "log": result.stderr}
-
-        # Aqui assumimos que a sandbox imprimiu um JSON
-        return {"saida": result.stdout.strip()}
-
-    except Exception as e:
-        return {"erro": str(e)}
+@router.post("/create-user/")
+def new_user(repo_url):
+    pass
 
 @router.post("/new-repository/")
 def new_repository():
+    pass
+
+@router.post("/new-message")
+def new_message():
     pass
 
